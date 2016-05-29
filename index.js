@@ -82,6 +82,17 @@ Object.defineProperty(exports, 'urlencoded', {
 })
 
 /**
+ * MessagePack parser.
+ * @public
+ */
+
+Object.defineProperty(exports, 'msgpack', {
+  configurable: true,
+  enumerable: true,
+  get: createParserGetter('msgpack')
+})
+
+/**
  * Create a middleware to parse json and urlencoded bodies.
  *
  * @param {object} [options]
@@ -149,6 +160,9 @@ function loadParser(parserName) {
       break
     case 'urlencoded':
       parser = require('./lib/types/urlencoded')
+      break
+    case 'msgpack':
+      parser = require('./lib/types/msgpack')
       break
   }
 
