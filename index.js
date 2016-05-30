@@ -27,6 +27,7 @@ var parsers = Object.create(null)
  * @property {function} raw
  * @property {function} text
  * @property {function} urlencoded
+ * @property {function} msgpack
  */
 
 /**
