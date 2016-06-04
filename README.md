@@ -25,6 +25,7 @@ This module provides the following parsers:
   * [Raw body parser](#bodyparserrawoptions)
   * [Text body parser](#bodyparsertextoptions)
   * [URL-encoded form body parser](#bodyparserurlencodedoptions)
+  * [Message Pack body parser](#bodyparsermsgpackoptions)
 
 Other body parsers you might be interested in:
 
@@ -49,6 +50,15 @@ empty object (`{}`) if there was no body to parse (or an error was returned).
 
 The various errors returned by this module are described in the
 [errors section](#errors).
+
+### bodyparser.msgpack(options)
+
+Return middleware that only parses `messagepack` input. This parser accepts binary
+messagepack encoded input. It supports automatic inflation of `gzip` and `deflate`
+encodings. Note that by default the limit is `1mb` of messagepack encoded data.
+
+A new `body` object containing the parsed data is populated on the `request`
+object after the middleware (i.e. `req.body`).
 
 ### bodyParser.json(options)
 
@@ -333,6 +343,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
+
+// parse application/x-msgpack
+app.use(bodyParser.msgpack())
 
 app.use(function (req, res) {
   res.setHeader('Content-Type', 'text/plain')
