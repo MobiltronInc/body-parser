@@ -1,4 +1,4 @@
-# body-parser-with-msgpack
+w.fa# body-parser-with-msgpack
 
 Node.js body parsing middleware.
 
@@ -29,13 +29,13 @@ Other body parsers you might be interested in:
 ## Installation
 
 ```sh
-$ npm install body-parser
+$ npm install body-parser-with-msgpack
 ```
 
 ## API
 
 ```js
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser-with-msgpack')
 ```
 
 The `bodyParser` object exposes various factories to create middlewares. All
