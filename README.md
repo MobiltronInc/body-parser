@@ -1,5 +1,8 @@
 w.fa# body-parser-with-msgpack
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
 Node.js body parsing middleware.
 
 _This does not handle multipart bodies_, due to their complex and typically
@@ -328,7 +331,7 @@ This is the simplest setup.
 
 ```js
 var express = require('express')
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser-with-msgpack')
 
 var app = express()
 
@@ -356,7 +359,7 @@ Express.
 
 ```js
 var express = require('express')
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser-with-msgpack')
 
 var app = express()
 
@@ -365,6 +368,9 @@ var jsonParser = bodyParser.json()
 
 // create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
+
+// create application/x-msgpack
+var msgpackParser = bodyParser.msgpack();
 
 // POST /login gets urlencoded bodies
 app.post('/login', urlencodedParser, function (req, res) {
@@ -376,6 +382,10 @@ app.post('/login', urlencodedParser, function (req, res) {
 app.post('/api/users', jsonParser, function (req, res) {
   if (!req.body) return res.sendStatus(400)
   // create user in req.body
+})
+
+app.post('/api/users/import', msgpackParser, function(req, res) {
+  if (!req.body) return res.sendStatus(400)
 })
 ```
 
@@ -399,13 +409,5 @@ app.use(bodyParser.text({ type: 'text/html' }))
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/body-parser.svg
-[npm-url]: https://npmjs.org/package/body-parser
-[travis-image]: https://img.shields.io/travis/expressjs/body-parser/master.svg
-[travis-url]: https://travis-ci.org/expressjs/body-parser
-[coveralls-image]: https://img.shields.io/coveralls/expressjs/body-parser/master.svg
-[coveralls-url]: https://coveralls.io/r/expressjs/body-parser?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/body-parser.svg
-[downloads-url]: https://npmjs.org/package/body-parser
-[gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg
-[gratipay-url]: https://www.gratipay.com/dougwilson/
+[npm-image]: https://img.shields.io/npm/v/body-parser-with-msgpack.svg
+[npm-url]: https://npmjs.org/package/body-parser-with-msgpack
