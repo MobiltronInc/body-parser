@@ -411,3 +411,5 @@ app.use(bodyParser.text({ type: 'text/html' }))
 
 [npm-image]: https://img.shields.io/npm/v/body-parser-with-msgpack.svg
 [npm-url]: https://npmjs.org/package/body-parser-with-msgpack
+[downloads-image]: https://img.shields.io/npm/dm/body-parser-with-msgpack.svg
+[downloads-url]: https://npmjs.org/package/body-parser-with-msgpack

@@ -1,7 +1,7 @@
 {
   "name": "body-parser-with-msgpack",
   "description": "Node.js body parsing middleware extended with messagepack support",
-  "version": "1.16.2",
+  "version": "1.16.3",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
