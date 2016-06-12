@@ -1,12 +1,13 @@
 {
   "name": "body-parser-with-msgpack",
   "description": "Node.js body parsing middleware extended with messagepack support",
-  "version": "1.16.3",
+  "version": "1.16.4",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
     "Vassilios Karakoidas <v.karakoidas@mobiltron.com> (http://bkarak.wizhut.com/blog/)"
   ],
+  "keywords": ["express", "expressjs", "messagepack", "msgpack", "body-parser"],
   "license": "MIT",
   "repository": "MobiltronInc/body-parser",
   "dependencies": {
