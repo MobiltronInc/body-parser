@@ -1,7 +1,6 @@
 # body-parser-with-msgpack
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build status][appveyor-image]][appveyor-url]
 
 Node.js body parsing middleware.
 
