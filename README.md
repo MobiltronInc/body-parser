@@ -1,4 +1,4 @@
-w.fa# body-parser-with-msgpack
+# body-parser-with-msgpack
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
