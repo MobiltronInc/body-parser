@@ -1,6 +1,6 @@
 # body-parser-with-msgpack
 
-[![NPM](https://nodei.co/npm/body-parser-with-msgpack.png)](https://nodei.co/npm/body-parser-with-msgpack/)
+[![NPM](https://nodei.co/npm/body-parser-with-msgpack.png?downloads=true&stars=true)](https://nodei.co/npm/body-parser-with-msgpack/)
 
 Node.js body parsing middleware.
 
