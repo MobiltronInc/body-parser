@@ -1,7 +1,6 @@
-w.fa# body-parser-with-msgpack
+# body-parser-with-msgpack
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
+[![NPM](https://nodei.co/npm/body-parser-with-msgpack.png?downloads=true)](https://nodei.co/npm/body-parser-with-msgpack/)
 
 Node.js body parsing middleware.
 
@@ -408,8 +407,3 @@ app.use(bodyParser.text({ type: 'text/html' }))
 ## License
 
 [MIT](LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/body-parser-with-msgpack.svg
-[npm-url]: https://npmjs.org/package/body-parser-with-msgpack
-[downloads-image]: https://img.shields.io/npm/dm/body-parser-with-msgpack.svg
-[downloads-url]: https://npmjs.org/package/body-parser-with-msgpack
