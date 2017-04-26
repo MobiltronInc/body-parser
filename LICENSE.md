@@ -1,9 +1,9 @@
 MIT License
 
-Copyright © 2014 Jonathan Ong <me@jongleberry.com>
-Copyright © 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
-Copyright © 2016-2017 Vassilios Karakoidas <v.karakoidas@mobiltron.com>
-Copyright © 2017 Mobiltron, Inc. All rights reserved.
+* Copyright © 2014 Jonathan Ong <me@jongleberry.com>
+* Copyright © 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+* Copyright © 2016-2017 Vassilios Karakoidas <v.karakoidas@mobiltron.com>
+* Copyright © 2016-2017 [Mobiltron, Inc.](http://mobiltron.com) All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
