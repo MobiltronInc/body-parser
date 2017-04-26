@@ -415,7 +415,18 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }))
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }))
 ```
+## About
+
+<img src="https://github.com/mobiltroninc/Foundation/blob/master/ASSETS/mobiltron_square.png?raw=true" width="70" />
+
+This project is funded and maintained by [Mobiltron, Inc.](http://mobiltron.com). We ❤️ open source software!
+
+Check out our other [open source projects](https://github.com/mobiltroninc/) or say :wave: on twitter [@mobiltron](https://twitter.com/mobiltron).
+
+## Contributing
+
+Contributions are welcome 🙏🏻 . We encourage developers like you to help us improve the projects we've shared with the community. Please see the [Contributing Guide](https://github.com/mobiltroninc/Foundation/blob/master/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/mobiltroninc/Foundation/blob/master/CONDUCT.md).
+
 
 ## License
-
-[MIT](LICENSE)
+body-parser-with-msgpack is available under the MIT license. See the [LICENSE](LICENSE.md) file for more info.
